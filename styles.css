@@ -1,14 +1,22 @@
 h1 {
   color: firebrick;
   text-align: center;
-  font-family: Arial;
+  font-family: Alata, Roboto, Arial;
   font-size: 60px;
  }
 
 h2 {
-  margin: 30px;
+  margin-left: 100px;
   color: green;
+  font-family: Alata, Roboto, Arial;
+  font-size: 30px;
+}
+
+h3 {
+  margin-left: 100px;
+  color: blue;
   font-size: 20px;
+  font-family: Alata, Roboto, Arial;
 }
 
 img {
