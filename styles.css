@@ -1,3 +1,5 @@
+/*this is the .css file that controls the styles of the webpage*/
+
 h1 {
   color: firebrick;
   text-align: center;
@@ -6,11 +8,13 @@ h1 {
   background-image:url(double-bubble-dark.png);
  }
 
+/*this is for the links font and centering*/
 nav {
   text-align: center;
   font-family: Avenir;
 }
-  
+
+  /*this is for the button shape on all the links.  I don't think avenir is supported although its the #4 most uploaded on GitHub, so.....*/
 a {
   display: inline-block;
   font-family: Avenir, sans-serif;
@@ -21,6 +25,7 @@ a {
   border-radius: 8px;
   border: 3px solid #ccc;
 }
+
 
 h2 {
   margin-left: 100px;
@@ -36,6 +41,7 @@ h3 {
   font-family: Alata, Roboto, Arial;
 }
 
+/*this centers and sizes the image, and i wanted the background to be around it, but its actually behind it so you only see it for a split second while its loading.  will fix soon*/
 img {
   display: block;
   margin-left: auto;
@@ -44,6 +50,7 @@ img {
   background-image:url(double-bubble-dark.png);
 }
 
+/*this is for the paragraphs, and I'm not sure why these really common fonts don't show up... I'm going to have to talk with google*/
 p {
   margin: 5px 180px;
   font-family: Myriad Pro;
@@ -51,9 +58,10 @@ p {
 
 ol, ul {
   font-family: Helvetica;
-  margin: 5px 200px;
+  margin: 20px 200px;
 }
 
+/*these are the pseudo-classes for the links, different colors for each circumstance*/
 a:link { color: blue; }
 a:visited { color: purple; }
 a:hover { color: red; }
