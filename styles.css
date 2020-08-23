@@ -6,6 +6,11 @@ h1 {
   background-image:url(double-bubble-dark.png);
  }
 
+nav {
+  text-align: center;
+  font-family: Avenir;
+}
+  
 h2 {
   margin-left: 100px;
   color: green;
@@ -36,3 +41,8 @@ ol, ul {
   font-family: Helvetica;
   margin: 5px 200px;
 }
+
+a:link { color: blue; }
+a:visited { color: purple; }
+a:hover { color: red; }
+a:active { color: green; }
