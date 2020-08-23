@@ -3,6 +3,7 @@ h1 {
   text-align: center;
   font-family: Alata, Roboto, Arial;
   font-size: 60px;
+  background-image:url(double-bubble-dark.png);
  }
 
 h2 {
@@ -24,6 +25,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  background-image:url(double-bubble-dark.png);
 }
 
 p {
