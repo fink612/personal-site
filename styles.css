@@ -6,6 +6,7 @@ h1 {
   font-family: Alata, Roboto, Arial;
   font-size: 60px;
   background-image:url(double-bubble-dark.png);
+  height: 90px;
  }
 
 /*this is for the links font and centering*/
@@ -54,6 +55,7 @@ img {
 p {
   margin: 5px 180px;
   font-family: Myriad Pro;
+  padding: 30px;
 }
 
 ol, ul {
