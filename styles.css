@@ -11,6 +11,16 @@ nav {
   font-family: Avenir;
 }
   
+a {
+  display: inline-block;
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px;
+  padding: 8px 17px;
+  border-radius: 8px;
+}
+
 h2 {
   margin-left: 100px;
   color: green;
@@ -35,6 +45,7 @@ img {
 
 p {
   margin: 5px 180px;
+  font-family: Myriad Pro;
 }
 
 ol, ul {
